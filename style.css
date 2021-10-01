@@ -45,15 +45,18 @@
     background: red;
     transition: 1s;
 }
+/* transform scale funziona molto meglio che cambiare le dimensioni a mano  */
 .ex-5-square:hover {
-    margin: 0;
+    /* margin: 0;
     width: 100px;
-    height: 100px;
+    height: 100px; */
+    transform: scale(2);
 }
 .ex-5-square:active{
-    margin: 35px;
+    /* margin: 35px;
     height: 30px;
-    width: 30px;
+    width: 30px; */
+    transform: scale(.5);
 }
 
 .ex-6-img, .ex-7-img, .ex-8-img {
